@@ -1,0 +1,25 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A single colortri that forms a big RGB triangle -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     width="200" height="200" viewBox="0 0 200 200"
+     xml:space="preserve">
+
+  <!-- 
+    points: (x0 y0) (x1 y1) (x2 y2)
+    colors: R0 G0 B0 A0  R1 G1 B1 A1  R2 G2 B2 A2 
+            (for each of the 3 vertices)
+            
+    We use:
+      Vertex 1: Red   => (1 0 0 1)
+      Vertex 2: Green => (0 1 0 1)
+      Vertex 3: Blue  => (0 0 1 1)
+  -->
+  <colortri 
+    points="100 0 0 200 200 200" 
+    colors="1 0 0 1  0 1 0 1  0 0 1 1" />
+  
+</svg>
